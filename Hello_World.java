@@ -1,8 +1,6 @@
 /*
  * first assignment on practicing printing
- * fcjhedfhf
- * cr4hifvhct
- * cfrchfrhcr
+ 
  */
 public class Hello_World {
 
