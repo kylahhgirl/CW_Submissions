@@ -38,12 +38,21 @@ public class Main {
 		
 		//System.out.println(Square.getSquare());
 		System.out.println
-		System.out.println(squaOne.getArea());
-		System.out.println(squaTwo.getArea());
+		
+		//this will print out the area of squares 1-3
+		System.out.print("this is the area of squares 1-3, ");
+		System.out.print(squaOne.getArea());
+		System.out.print(", ");
+		System.out.print(squaTwo.getArea());
+		System.out.print(", ");
 		System.out.println(squaThree.getArea());
 		
-		System.out.println(squaOne.getPerimeter());
-		System.out.println(squaTwo.getPerimeter());
+		//this will print out the parameter of squares 1-3
+		System.out.print("this is the perimeter of squares 1-3, ");
+		System.out.print(squaOne.getPerimeter());
+		System.out.print(", ");
+		System.out.print(squaTwo.getPerimeter());
+		System.out.print(", ");
 		System.out.println(squaThree.getPerimeter());
 		
 		//RECTANGLE
