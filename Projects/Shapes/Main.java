@@ -125,9 +125,9 @@ public class Main {
 		/*
 		 * this is my fifth shape it is a triangle
 		 */
-		 Triangle triOne = new Triangle (9.0,8,0);
-		 Triangle triTwo = new Triangle (4.0,3.0);
-		 Triangle triThree = new Triangle (2.0, 6.0);
+		 Triangle triOne = new Triangle (9.0, 8.0, 1.0, 2.0);
+		 Triangle triTwo = new Triangle (4.0,3.0,1.0,2.0);
+		 Triangle triThree = new Triangle (2.0, 6.0, 1.0, 2.0);
 		 
 		//this will print out the area of triangles 1-3
 		System.out.print("this is the area of triangles 1-3, ");
