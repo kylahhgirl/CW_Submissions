@@ -17,3 +17,10 @@ public String firstHalf(String str) {
 
 //Make_Abba
 
+public String makeAbba(String a, String b) {
+  return a + b + b + a;
+  
+}
+
+//Make_Tags
+
