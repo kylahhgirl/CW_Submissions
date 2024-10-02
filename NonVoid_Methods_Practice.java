@@ -17,7 +17,7 @@ public class Non_Void_Method_Practice {
 	double area =  calArea (radius, pi);
 	System.out.print("The diameter is " + diameter + ". The circumference is " + circumference + ". The area is "  + area + ".");
 	}
-	
+	{
 //task 3:
 	int x = 2;
 	int y = 5;
@@ -26,7 +26,8 @@ public class Non_Void_Method_Practice {
 	findProduct (x,y);
 	findQoutient (x,y);
 	findModules(x,y);
-
+	}
+		
 //this is task 1, it wills state my name,  eye color, hair style, best friends and favorite food
 	public static String stateName() {
 		
