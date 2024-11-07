@@ -110,3 +110,73 @@ public int sortaSum(int a, int b) {
     return sum;
   }
 }
+
+//alarmClock
+public String alarmClock(int day, boolean vacation) {
+  if(!vacation)
+  {
+    if (day == 1 ||  day == 2 || day ==  3 || day == 4 || day ==  5)
+    {
+      return  "7:00";
+    }
+  
+  else if (day == 0 || day == 6)
+  {
+    return "10:00";
+  }
+}
+
+if (vacation)
+{
+  if (day == 1 ||  day == 2 || day ==  3 || day == 4 || day ==  5)
+{
+  return "10:00";
+}
+
+else if (day == 0 || day == 6)
+{
+  return "off";
+}
+}
+
+return "ok";
+}
+
+//in1To10
+public boolean in1To10(int n, boolean outsideMode) {
+  if (!outsideMode)
+  {
+    if (n >= 1 &&  n <= 10)
+    {
+      return true;
+    }
+  }
+  
+  if (outsideMode)
+  {
+    if (n <= 1 || n>= 10)
+    {
+      return true;
+    }
+    else  
+    {
+      return false;
+    }
+  }
+  return false;
+}
+
+//old35
+public boolean old35(int n) {
+  if (n %  3 == 0 && n % 5 == 0)
+  {
+    return false;
+  }
+  
+  else if (n %  3 == 0 || n % 5 == 0)
+  {
+    return true;
+  }
+  
+  return false;
+}
