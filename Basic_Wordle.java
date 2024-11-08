@@ -6,7 +6,7 @@ public class Wordle {
 	public static void main(String[] args) {
 	
 	String soln = new String ("water");
-	System.out.print("Welcome to Wordle Land");
+	System.out.println("Welcome to Wordle Land");
 	playGame();
 	playerGuess(soln);
 	
@@ -15,7 +15,7 @@ public class Wordle {
 	
 	public static void playGame ()
 	{
-		System.out.print("Make a guess");
+		System.out.println("Make a guess");
 	}
 
 	public static String possibleErrors ()
