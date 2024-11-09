@@ -4,20 +4,23 @@ public class Wordle {
 	static Scanner gameReader = new Scanner (System.in);
 	
 	public static void main(String[] args) {
-	
+	//solution
 	String soln = new String ("water");
+
+	//welcomes player to game
 	System.out.println("Welcome to Wordle Land");
+	//the methods
 	playGame();
 	playerGuess(soln);
 	
 
 	}
-	
+	//starts game
 	public static void playGame ()
 	{
 		System.out.println("Make a guess");
 	}
-
+	//checks for errors player can make
 	public static String possibleErrors ()
 	{
 		String guess = new String (gameReader.next());
