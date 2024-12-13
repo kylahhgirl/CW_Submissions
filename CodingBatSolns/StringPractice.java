@@ -52,3 +52,15 @@ public String firstTwo(String str) {
 public String withoutEnd(String str) {
   return str.substring(1,str.length()-1);
 }
+
+//doubleChar
+public String doubleChar(String str) {
+String word = new String("");
+for (int i = 0; i<str.length(); i++)
+{
+  word += str.charAt(i);
+  word += str.charAt(i);
+}
+
+return word;
+}
